@@ -1,0 +1,435 @@
+
+body{
+    background-color: #efedfff6;
+
+}
+
+.indice {
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    margin: auto;
+    justify-items: center;
+    justify-content: space-evenly;
+    background-color: #efedfff6;
+}
+
+.indice {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+.indice h1 {
+    font-size: 40px;
+}
+
+.indice p{
+ margin-top: 55px;
+}
+
+.busqueda{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  
+}
+.resumen {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+       width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+.indice2 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 10px;
+    width: 70%;
+    margin: auto;
+    justify-items: center;
+
+
+}
+
+.i21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.i22 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.i22 span {
+    margin: 10px;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 35%;
+    background-color: white;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    padding: 20px;
+    text-align: center;
+      width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+.productos img {
+    width: 100%;
+    height: 300px;
+    object-fit: fit-content;
+    border-radius: 10px;
+}
+
+.nombre {
+    font-size: 20px;
+    /* background-color: white; */
+}
+
+.fondo {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.pagina span {
+    margin: 20px;
+}
+
+.pagina span.p1 {
+    border-radius: 100%;
+    background-color: rgb(49, 235, 49);
+    color: white;
+    padding: 15px;
+}
+
+.pagina span.p2 {
+    border-radius: 30px;
+    background-color: white;
+    padding-left: 70px;
+}
+.i3{
+    background-color: #fff;
+}
+
+h2.letreros{
+    padding: 20px;
+}
+
+.indice3{
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    background-color: #fff;
+}
+
+body.indice3 {
+    width: 100%;
+    background-color: #fff;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+    
+}
+.parent div{
+    margin: 20px auto;
+}
+
+.indice3 div{
+    border: 1px solid #ffffffa9;
+
+}
+
+.parent img {
+    width: 70%;
+    object-fit:contain;
+    border-radius: 10px;
+   max-height: 500px;
+}
+
+.parent p {
+    position: relative;
+    z-index: 1;
+    top: 40px;
+    left: 10px;
+    border: 1px solid #ef8a05;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #ef8a05;
+    width: 15%;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.parent div {
+    border-radius: 40px;
+}
+
+
+.descripcion{
+text-align: center;
+
+}
+
+.ofertas{
+    background-color:rgba(0, 105, 241, 0.938);
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: #fff;
+    position: relative;
+    top:77px;
+    left: 80px;
+}
+
+.ofertas1{
+    background-color:rgba(0, 105, 241, 0.938);
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: #fff;
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+
+.div1 img,
+.div2 img,
+.div4 img,
+.div5 img,
+.div7 img
+{
+    width: 150px;
+}
+
+.div3 {
+    grid-row: span 1 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    height: 90%;
+    background-color:#efedfff6 ;
+}
+
+.div3 img{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    
+}
+
+.descripcion1{
+    position: relative;
+    top:30px;
+    left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.descripcion{
+    position: relative;
+    top: -60%;
+    font-size: 20px;
+    left: 10px;
+    color:#646262;
+}
+
+.precio{
+    position: relative;
+    top:-5px;
+}
+
+.precio1{
+    color: #ff841f;
+    font-weight: bold;
+    position: relative;
+    top:60px;
+    left: -38%;
+    font-size: 20px;
+}
+
+.precio3{
+    color: #000000b6;
+    font-weight: bold;
+    position: relative;
+    top:60px;
+    left: -30%;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.precio{
+    position: relative;
+    top: 20px;
+}
+
+.div4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+
+
+.div5 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.div6 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    background-color:#efedfff6 ;
+}
+
+.div6 img{
+    width: 300px;
+    position: relative;
+    bottom:40px ;
+}
+
+.div7 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+
+
+.indice4{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-items: center;
+    margin-top:20px;
+ 
+}
+.flecha{
+    display: flex;
+    position: relative;
+    top:20%;
+    border: 0px solid #1a191942;
+    border-radius: 100%;
+    padding:5px 8px;
+    background-color: #1a191983;
+    z-index: 1;
+    ;
+}
+
+.letreros {
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    justify-content: space-around;
+    margin:10px 0 0 0;
+    margin-top:50px
+    
+}
+
+.l1{
+    position: relative;
+    left:7%;
+}
+
+.l2{
+    border: 1px solid rgba(0, 105, 241, 0.938);
+    border-radius: 50px;
+    padding: 7px 40px;
+    background-color: rgba(0, 105, 241, 0.938);
+    color: #fff;
+    position: relative;
+    right: 5%;
+    font-size: 20px;
+}
+
+.uva{
+ opacity: 0.4;
+ position: relative;
+ right: 20px;
+}
+
+.lechuga{
+z-index: 1;
+position: relative;
+bottom: 50%;
+left: 15%;
+font-size: 25px;
+font-weight: bold;
+}
+
+.azul img{
+   
+opacity: 0.5;
+border: 1px solid rgba(0, 105, 241, 0.938);
+}
+
+.indice4 img{
+    
+    width: 90%;
+    height: 70%;
+    object-fit: cover ;  
+    gap:10px;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.indice5{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    justify-items: center;
+}
+
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.r1 p{
+    margin: 0;
+}
+
+.redes img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+    padding: 20px 10px ;
+}
+
+.i5{
+    padding: 30px;
+    background-color: #fff;
+}
