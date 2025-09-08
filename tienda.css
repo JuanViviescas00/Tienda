@@ -15,12 +15,19 @@ body {
     align-items: center;
     justify-content: space-between;
     background: rgba(239, 237, 255, 0.9);
-    padding: 20px 40px;
-    gap: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+.tipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
 }
 
 .indice .titulo {
-    height: 60px;
+    width: 15%;
 }
 
 .indice a {
@@ -28,10 +35,21 @@ body {
     text-decoration: none;
     margin: 0 10px;
     font-weight: 500;
-    padding: 8px 12px;
+    padding: 1% ;
     border-radius: 8px;
     transition: background 0.2s;
 }
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    order: 0;
+    justify-content: space-around;
+    gap: 20px;
+  padding: 1% 5%;
+}
+
 
 .indice a:hover {
     background: #aaa8fc;
@@ -40,27 +58,28 @@ body {
 
 .busqueda {
     display: flex;
-    gap: 10px;
+    gap: 1%;
     align-items: center;
 }
 
 .busqueda img {
-    width: 32px;
-    height: 32px;
+    width: 35px;
     cursor: pointer;
+
 }
 
-.busqueda:hover{
-    color:#fff;
+
+
+.busqueda:hover {
+    color: #fff;
     cursor: pointer;
 }
 
 .resumen {
-    background: #f6f6ff;
     color: #4b4b7a;
     font-weight: bold;
-    text-align: center;
-    padding: 10px 0;
+    text-align: start;
+    padding: 10px 15%;
     margin: 0 0 20px 0;
     font-size: 1.1em;
 }
@@ -69,10 +88,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #f6f6ff;
     padding: 15px 40px;
     margin-bottom: 20px;
     gap: 20px;
+    margin: auto;
+    width: 75%;     
 }
 
 .i21 {
@@ -102,7 +122,8 @@ body {
     background: #4b4b7a;
 }
 
-.i3{
+.i3 {
+    padding-top: 10px;
     background-color: #fff;
 }
 
@@ -136,7 +157,7 @@ body {
     border-radius: 10px;
 }
 
-.canasta{
+.canasta {
     width: 100%;
     max-width: 200px;
     max-height: 200px;
@@ -175,31 +196,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     margin: 25px 0;
     font-size: 1.2em;
 }
 
-.p1, .p2 {
+.p1:hover{
     background: #aaa8fc;
     color: #fff;
     border-radius: 50%;
     padding: 6px 12px;
 }
 
+.p2 {
+    background: #aaa8fc;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px 12px;
+}
+
+.p2:hover{
+    padding-left: 100px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
 .letreros {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 20px;
     font-size: 1.3em;
     color: #4b4b7a;
-    margin: 30px 0 10px 0;
+    margin: 40px 0 10px 0;
+
 }
-
-.
-
-
 
 .l1 {
     font-weight: bold;
@@ -228,7 +258,7 @@ body {
 
 
 
-.parent > div {
+.parent>div {
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 2px 8px #e0e0e0;
@@ -237,7 +267,7 @@ body {
     position: relative;
 }
 
-.parent > div:hover {
+.parent>div:hover {
     box-shadow: 0 4px 16px #cfcfff;
     transform: scale(1.01);
     transition: scale 1s;
@@ -253,7 +283,7 @@ body {
     flex: 1;
 }
 
-.parent p{
+.parent p {
     position: absolute;
     padding: 5px 10px;
     background-color: #f78732;
@@ -261,10 +291,10 @@ body {
     color: white;
 }
 
-.ofertas1{
+.ofertas1 {
     position: absolute;
-    right:45%;
-    top:7%;
+    right: 45%;
+    top: 7%;
     padding: 5px 10px;
     background-color: #aaa8fc;
     border-radius: 10px;
@@ -272,15 +302,15 @@ body {
     font-weight: bold;
 }
 
-.descripcion{
+.descripcion {
     position: absolute;
-    bottom:70%;
+    bottom: 70%;
     left: 65%;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
-.descripcion1{
+.descripcion1 {
     position: absolute;
     top: 60%;
     right: 70%;
@@ -288,7 +318,7 @@ body {
     font-weight: bold;
 }
 
-.precio1{
+.precio1 {
     position: absolute;
     top: 70%;
     right: 78%;
@@ -297,7 +327,7 @@ body {
     color: #f78732;
 }
 
-.precio3{
+.precio3 {
     position: absolute;
     top: 71%;
     right: 60%;
@@ -306,7 +336,7 @@ body {
     text-decoration: line-through;
 }
 
-.precio{
+.precio {
     position: relative;
     bottom: 20%;
     right: 0%;
@@ -315,16 +345,16 @@ body {
     font-size: 19px;
 }
 
-.precio2{
+.precio2 {
     position: relative;
     bottom: 20%;
-    left:3% ;
+    left: 3%;
     font-size: 17px;
     font-weight: bold;
     text-decoration: line-through;
 }
 
-.icono_compra{
+.icono_compra {
     width: 40px !important;
     height: 40px !important;
     position: absolute !important;
@@ -337,7 +367,7 @@ body {
 
 }
 
-.icono_compra2{
+.icono_compra2 {
     width: 40px !important;
     height: 40px !important;
     cursor: pointer;
@@ -349,33 +379,33 @@ body {
     right: 30px;
 }
 
-.icono_compra2:hover{
-       box-shadow: 0 4px 16px #cfcfff;
+.icono_compra2:hover {
+    box-shadow: 0 4px 16px #cfcfff;
     transform: scale(1.1);
     box-shadow: 0 4px 8px #424040 !important;
 }
 
-.icono_compra:hover{
+.icono_compra:hover {
     box-shadow: 0 4px 8px #424040 !important;
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.div3{
+.div3 {
     grid-column-start: 3;
     grid-row-start: 1;
     grid-row: span 2;
 }
 
-.div6{ 
-    grid-column: 1 / 2;   
-    grid-row: 2 / span 2; 
+.div6 {
+    grid-column: 1 / 2;
+    grid-row: 2 / span 2;
 }
 
 .div8 {
     display: block;
-    margin: 0 auto;
-    background: #aaa8fc;
+    margin: 20px auto;
+    background: #2bff48;
     color: #fff;
     border: none;
     border-radius: 15px;
@@ -385,9 +415,12 @@ body {
     transition: background 0.2s;
 }
 
-.img1{
-    width: 300px !important;
-    height: 200px !important;
+.img1 {
+    width: 90% !important;
+    height: auto !important;
+    position: absolute;
+    top: 10%;
+    right: 5%;
 }
 
 .div8:hover {
@@ -400,9 +433,10 @@ body {
     gap: 10px;
     padding: 20px 40px;
     align-items: center;
-    background: #f6f6ff;
     border-radius: 12px;
     margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
 }
 
 .indice4 img {
@@ -427,7 +461,7 @@ body {
     cursor: pointer;
 }
 
-.azul1{
+.azul1 {
     opacity: 0.5;
 }
 
@@ -436,7 +470,7 @@ body {
     cursor: pointer;
 }
 
-.azul img{
+.azul img {
     background-color: #cfcfff;
     transition: opacity 0.3s;
 
@@ -444,28 +478,27 @@ body {
 
 
 
-.lechuga{
+.lechuga {
     position: absolute;
-    top: 0;
+    top: 40%;
     left: 0;
     width: 60%;
-    height: 100%;
     background-color: rgba(94, 66, 253, 0.829);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.1s;
     font-weight: bold;
     border-radius: 10%;
 }
 
-.azul:hover .lechuga{
+.azul:hover .lechuga {
     opacity: 1;
 }
 
-.azul img:hover{
+.azul img:hover {
     opacity: 0.4;
 }
 
@@ -473,10 +506,16 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    background: #efedff;
     padding: 30px 40px;
     border-radius: 12px;
     margin-bottom: 30px;
+    width: 80%;
+    margin:auto ;
+    background-color: #fff ;
+}
+
+.i5{
+    background-color: #fff;
 }
 
 .footer .title {
@@ -497,66 +536,151 @@ body {
     font-size: 1em;
 }
 
-/* --- RESPONSIVE --- */
+
+
+@media (max-width:1440px){
+   .indice{
+    justify-content: center;
+}
+   
+
+    
+}
+
+@media (max-width:1100px){
+    .productos{
+        height: 50% !important;
+    }
+}
+
+@media(max-width:950px){
+
+    .tipo{
+        display: none;
+    }
+
+    .indice{
+        justify-content: space-evenly;
+    }
+
+    .titulo{
+        width: 250px !important;
+    }
+
+.div3, .div6{
+    display: none;
+}
+
+    .indice3{
+        overflow: hidden;
+        width: 80%;
+    }
+
+    .parent{
+    display: flex;
+    width: max-content;
+    height: max-content;
+    overflow:hidden;
+    border: 2px solid #ccc;
+    animation: deslizar 10s linear infinite;
+    }
+    @keyframes deslizar {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100px * 5));
+  }
+}
+
+
+
+}
+
 @media (max-width: 900px) {
     .productos {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .parent {
         grid-template-columns: 1fr 1fr;
     }
+
     .indice4 {
         grid-template-columns: repeat(4, 1fr);
     }
+
     .indice5 {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (max-width: 600px) {
-    .indice, .indice2, .indice3, .indice4, .indice5 {
-        padding: 10px;
+
+    body{
+        width: 100%;
     }
+
+    .indice,
+    .indice2,
+    .indice3,
+    .indice4,
+    .indice5 {
+        padding: 10px;
+        width: 100%;
+    }
+
     .indice {
         flex-direction: column;
         gap: 10px;
         text-align: center;
     }
+
     .indice .titulo {
-        height: 40px;
+        height: auto;
     }
+
     .busqueda img {
         width: 24px;
         height: 24px;
     }
+
     .productos {
         grid-template-columns: 1fr;
         gap: 15px;
         padding: 10px;
     }
+
     .parent {
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .indice2 {
         flex-direction: column;
         gap: 10px;
         text-align: center;
     }
+
     .i22 {
         justify-content: center;
     }
+
     .indice4 {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
+
     .indice5 {
         grid-template-columns: 1fr;
         gap: 10px;
     }
+
     .letreros {
-        flex-direction: column;
+        flex-direction: row;
         gap: 8px;
         font-size: 1.1em;
+        width: 80%;
+        margin: auto;
     }
 }
