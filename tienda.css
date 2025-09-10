@@ -480,9 +480,10 @@ ul{
 
 .lechuga {
     position: absolute;
-    top: 40%;
+    top:0%;
     left: 0;
-    width: 60%;
+    width: auto;
+    height: 100%;
     background-color: rgba(94, 66, 253, 0.829);
     color: #fff;
     display: flex;
@@ -518,6 +519,8 @@ ul{
     background-color: #fff;
 }
 
+
+
 .footer .title {
     font-size: 1.2em;
     font-weight: bold;
@@ -542,9 +545,33 @@ ul{
    .indice{
     justify-content: center;
 }
-   
 
-    
+.precio{
+    bottom: 30%;
+}
+
+.precio2{
+    bottom: 30%;
+}
+   
+}
+
+@media (max-width:1300px){
+    .indice4{
+       display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+
+   .flecha{
+    display: none;
+   }
+
+   .azul1{
+    display: none;
+   }
 }
 
 @media (max-width:1100px){
@@ -579,9 +606,8 @@ ul{
     .parent{
     display: flex;
     width: max-content;
-    height: max-content;
+    height: auto;
     overflow:hidden;
-    border: 2px solid #ccc;
     animation: deslizar 10s linear infinite;
     }
     @keyframes deslizar {
@@ -634,6 +660,7 @@ ul{
         flex-direction: column;
         gap: 10px;
         text-align: center;
+        padding: 0;
     }
 
     .indice .titulo {
@@ -645,15 +672,38 @@ ul{
         height: 24px;
     }
 
+    .resumen{
+        margin: auto;
+        padding: 1%;
+        text-align: center;
+    }
+
     .productos {
         grid-template-columns: 1fr;
         gap: 15px;
         padding: 10px;
     }
 
+    .indice2{width: 80%;}
+
     .parent {
-        grid-template-columns: 1fr;
-        gap: 10px;
+        width: max-content;
+        padding: 0;
+    }
+
+    .indice3{
+        padding: 0;
+    }
+
+    .indice3 div{
+        padding: 00;
+    }
+
+    .indice5{
+    padding: 0;
+    }
+    .i5{
+        text-align: center;
     }
 
     .indice2 {
@@ -684,3 +734,4 @@ ul{
         margin: auto;
     }
 }
+
